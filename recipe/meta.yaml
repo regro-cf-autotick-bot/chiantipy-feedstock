@@ -1,5 +1,5 @@
 {% set name = "ChiantiPy" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/chianti-atomic/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 8caecfc593a2df37e1fdb196f3ad9115ae4ae69429d49347b1c1b8a373d64a6a
+  sha256: 5c7fb19f2c7369fb3b198824ad078c6a4e1f25a2f45d1bcafd9f25280392e51f
 
 build:
   noarch: python
